@@ -1,0 +1,189 @@
+ILLUSTRATE UNIX COMMANDS AND SHELL PROGRAMMING
+
+KALI LINUX VERIFICATION COMMANDS
+
+1. Display Kernel Information
+uname -a
+
+2. Display Operating System Details
+cat /etc/os-release
+
+3. Display Current User
+whoami
+
+4. Display Hostname
+hostname
+
+5. Display System Information
+lscpu
+
+6. Display Disk Usage
+df -h
+
+
+UNIX COMMANDS
+
+DATE
+date
+
+Formatted Date
+date "+%H-%M-%S"
+
+CALENDAR
+cal 2000
+
+CALENDAR FOR A MONTH
+cal 6 2026
+
+ECHO
+echo Hello World
+
+WHO
+who
+
+WHO WITH HEADER
+who -H
+
+WHO LAST BOOT
+who -b
+
+WHO AM I
+who am i
+
+TTY
+tty
+
+BC
+bc
+
+CLEAR
+clear
+
+MAN
+man ls
+
+TPUT CLEAR
+tput clear
+
+TPUT LONGNAME
+tput longname
+
+TPUT SMSO
+tput smso
+
+TPUT RMSO
+tput rmso
+
+LS
+ls
+
+LS HIDDEN FILES
+ls -a
+
+LS LONG LISTING
+ls -l
+
+LS REVERSE ORDER
+ls -r
+
+LS MODIFICATION TIME
+ls -t
+
+
+DIRECTORY RELATED COMMANDS
+
+PWD
+pwd
+
+MKDIR
+mkdir demo
+
+CD
+cd demo
+
+RMDIR
+rmdir demo
+
+
+FILE RELATED COMMANDS
+
+CREATE FILE
+cat > file1.txt
+
+DISPLAY FILE
+cat file1.txt
+
+COPY CONTENTS - OVERWRITE
+cat file1.txt > file2.txt
+
+COPY CONTENTS - APPEND
+cat file1.txt >> file2.txt
+
+CAT WITH LINE NUMBERS
+cat -n file1.txt
+
+SORT
+sort names.txt
+
+CP
+cp file1.txt file2.txt
+
+MV
+mv file1.txt file2.txt
+
+RM
+rm file1.txt
+
+WC
+wc file1.txt
+
+WC LINE COUNT
+wc -l file1.txt
+
+WC WORD COUNT
+wc -w file1.txt
+
+WC CHARACTER COUNT
+wc -c file1.txt
+
+
+FILTERS AND PIPES
+
+HEAD
+head file1.txt
+
+TAIL
+tail file1.txt
+
+MORE
+more file1.txt
+
+GREP
+grep hello file1.txt
+
+SORT
+sort file1.txt
+
+PIPE
+ls | wc -l
+
+TR
+echo unix | tr "[a-z]" "[A-Z]"
+
+
+COMMUNICATION THROUGH UNIX COMMANDS
+
+MESG
+mesg y
+
+WRITE
+write kali
+
+WALL
+wall "Server restart in 10 min"
+
+MAIL
+mail kali
+
+REPLY
+reply kali
